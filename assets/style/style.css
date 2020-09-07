@@ -1,0 +1,56 @@
+/* CSS Reset */
+* {
+   padding: 0;
+   margin: 0;
+}
+
+/* Font-face */
+@font-face {
+   font-family: "Exo";
+   src: url('../fonts/Exo-SemiBold.ttf') format('truetype');
+   /* font ini untuk kata "Fotoin" */
+}
+
+@font-face {
+   font-family: "Asap";
+   src: url('../fonts/Asap-Regular.ttf') format('truetype');
+   /* font ini digunakan di semua bagian */
+}
+
+@font-face {
+   font-family: "et-line";
+   src: url('../fonts/et-line.woff') format('woff');
+   /* font ini digunakan untuk ikon */
+   /* 
+      ini contoh penggunaan font-icon
+      .ikon:after {
+         font-family: 'et-line';
+         content: "\e014";
+      } 
+   */
+}
+
+/* CATATAN!! bila ingin menerapkan style ke suatu tag supaya memberi class-nya yang spesifik */
+
+
+/* style bagian 1 */
+
+/* akhir style bagian 1 */
+
+
+
+/* style bagian 2 */
+
+/* akhir style bagian 2 */
+
+
+
+/* style bagian 3 */
+
+/* akhir style bagian 3 */
+
+
+
+/* style bagian 4 */
+
+/* akhir style bagian 4 */
