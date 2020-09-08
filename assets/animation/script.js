@@ -1,5 +1,6 @@
 //Ini script jQuery untuk ganti-ganti gambar di utama
-$(document).ready(function trial(){
+$(window).on("load", function() {
+//$(document).ready(function trial(){
   let image_array = ["assets/image/img9.jpg","assets/image/img10.jpg","assets/image/img11.jpg"];
   curentImageIndex = 0;
   setInterval(function(){
