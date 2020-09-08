@@ -131,12 +131,16 @@
   line-height: 2em;
 }
 .who-we-are-left a {
+  display: block;
   align-self: baseline;
   color: white;
   text-decoration: none;
   background-color: rgba(155,100,155,0.9);
   padding: 0.7em;
   border-radius: 0.5em;
+}
+.who-we-are-left a:hover {
+  opacity: 0.6;
 }
 .who-we-are-imgs {
   position: relative;
@@ -151,15 +155,35 @@
   right: 16vw;
   z-index: 4;
 }
+#img1:hover {
+  width: 30%;
+  top: 2vw;
+  right: 12vw;
+  transition: 1s;
+}
 #img2{
   top: 11vw;
   right: 8vw;
   z-index: 3;
 }
+#img2:hover {
+  width: 35%;
+  top: 8vw;
+  right: 6vw;
+  transition: 1s;
+  z-index: 10;
+}
 #img3 {
   top: 18vw;
   right: 2vw;
   z-index: 2;
+}
+#img3:hover {
+  width: 35%;
+  top: 14vw;
+  right: 4vw;
+  transition: 1s;
+  z-index: 10;
 }
 /* akhir style bagian 1 */
 
