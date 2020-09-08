@@ -41,6 +41,7 @@
 .welcome a {
     text-decoration: none;
     color: inherit;
+    display: block;
 }
 .who-we-are {
   font-family: "Asap";
