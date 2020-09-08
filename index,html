@@ -73,7 +73,7 @@
    <!-- sintaks bagian 4 -->
 
    <!-- akhir sintaks bagian 4 -->
-   <!--<script type="text/javascript" src="assets/animation/script.js"></script>-->
+   <script type="text/javascript" src="assets/animation/script.js"></script>
 </body>
 
 </html>
