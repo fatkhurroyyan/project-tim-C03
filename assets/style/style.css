@@ -146,7 +146,7 @@
   padding-top: 1em;
   line-height: 2em;
 }
-.who-we-are-left a {
+.who-we-are-text a {
   display: block;
   width: 8vw;
   align-self: baseline;
@@ -155,9 +155,10 @@
   background-color: rgba(155,100,155,0.9);
   padding: 0.7em;
   border-radius: 0.5em;
+  opacity: 0.5
 }
-.who-we-are-left a:hover {
-  opacity: 0.6;
+.who-we-are-text a:active {
+  opacity: 1;
 }
 .who-we-are-imgs {
   position: relative;
