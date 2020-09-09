@@ -50,6 +50,7 @@
   .fa {
     font-size: 10vw;
     padding: 4vw 4vw 0 0;
+    float:right;
   }
   .welcome-container {
     width: 100%;
