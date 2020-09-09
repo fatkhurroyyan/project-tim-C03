@@ -59,8 +59,8 @@
 }
 .head-container h2 {
   float: left;
-  font-family: "Exo";
-  src: url('../fonts/Exo-SemiBold.ttf') format('truetype');
+  font-family: "Exo" !important;
+  src: url('../fonts/Exo-SemiBold.ttf') format('truetype') !important;
   line-height: 60px;
 
 }
