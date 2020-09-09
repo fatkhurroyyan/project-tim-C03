@@ -30,4 +30,15 @@ $(document).ready(function trial(){
     }
   });
 
+  $('#icon').click(function(){
+    $('.head-container li').show();
+    $('#icon').hide();
+    $('#icon-x').show();
+  });
+  $('#icon-x').click(function(){
+    $('.head-container li').hide();
+    $('#icon').show();
+    $('#icon-x').hide();
+  });
+
 });
