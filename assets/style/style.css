@@ -33,7 +33,7 @@
 
 /* CATATAN!! bila ingin menerapkan style ke suatu tag supaya memberi class-nya yang spesifik */
 
-@media(min-width:700px){
+@media(min-width: 700px){
 /* style bagian 1 */
 .welcome {
   font-family: "Asap";
@@ -68,16 +68,26 @@
   float: right;
 }
 .head-container li {
+  display: block;
   float: left;
   margin-right: 1vw;
   padding: 0 1vw;
   list-style: none;
-  display: block;
   line-height: 60px;
 }
 .head-container li:hover {
   opacity: 0.7;
   box-shadow: 0 -3px 5px #d3d3d3;
+}
+#icon {
+  display: none;
+  color: white;
+  font-size: 0;
+}
+#icon-x {
+  display: none;
+  color: white;
+  font-size: 0;
 }
 .welcome-container {
   width: 100%;
@@ -138,6 +148,7 @@
 }
 .who-we-are-left a {
   display: block;
+  width: 8vw;
   align-self: baseline;
   color: white;
   text-decoration: none;
@@ -426,7 +437,4 @@ a{
 /* style bagian 4 */
 
 /* akhir style bagian 4 */
-}
-@media(max-width: 700px){
-
 }
