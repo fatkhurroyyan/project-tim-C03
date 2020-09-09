@@ -33,7 +33,7 @@
 
 /* CATATAN!! bila ingin menerapkan style ke suatu tag supaya memberi class-nya yang spesifik */
 
-
+@media(min-width:700px){
 /* style bagian 1 */
 .welcome {
   font-family: "Asap";
@@ -426,3 +426,7 @@ a{
 /* style bagian 4 */
 
 /* akhir style bagian 4 */
+}
+@media(max-width: 700px){
+
+}
