@@ -1,0 +1,405 @@
+@media(max-width: 700px){
+  /* style bagian 1 */
+  .welcome {
+    font-family: "Asap";
+    src: url('../fonts/Asap-Regular.ttf') format('truetype');
+  }
+  .welcome a {
+      text-decoration: none;
+      color: inherit;
+  }
+  .who-we-are {
+    font-family: "Asap";
+    src: url('../fonts/Asap-Regular.ttf') format('truetype');
+    z-index: 1;
+  }
+  .head {
+    background-color: white;
+    width: 97%;
+    margin: 0 auto;
+  }
+  .head-container {
+    display: block;
+    height: 60px;
+  }
+  .head-container h2 {
+    float: left;
+    font-family: "Exo";
+    src: url('../fonts/Exo-SemiBold.ttf') format('truetype');
+    line-height: 60px;
+
+  }
+  .head-container ul {
+    float: right;
+  }
+  .head-container li {
+    float: left;
+    margin-right: 1vw;
+    padding: 0 1vw;
+    list-style: none;
+    display: none;
+    line-height: 60px;
+  }
+  .head-container li:hover {
+    opacity: 0.7;
+    box-shadow: 0 -3px 5px #d3d3d3;
+  }
+#icon-x {
+    display: none;
+  }
+  .fa {
+    font-size: 10vw;
+    padding: 4vw 4vw 0 0;
+  }
+  .welcome-container {
+    width: 100%;
+  }
+  .welcome-main {
+    width: inherit;
+    height: 600px;
+    background-image: url("../image/img10.jpg");
+    background-size: 1440px 600px;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+  }
+  .welcome-main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 1vw;
+    font-size: 10vw;
+    color: white;
+    width: 100%;
+    height: 600px;
+    margin: auto;
+    padding: 0 3vw;
+    background-color: rgba(20,20,20,0.5);
+  }
+  #author-name {
+    letter-spacing: 0.2em;
+    font-size: 5vw;
+  }
+  .who-we-are-container {
+    width: 97%;
+    display: block;
+    height: 43vw;
+  }
+  .who-we-are-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    background-color: rgba(200,200,200,0.4);
+    margin-bottom: 1vw;
+    padding: 2em;
+    height: 120vw;
+  }
+  .who-we-are-text h2{
+    padding-bottom: 3vw;
+    border-bottom: 2px solid rgb(200,200,200);
+  }
+  .who-we-are-text p {
+    word-wrap: break-word;
+    text-align: justify;
+    padding-top: 1vw;
+    line-height: 10vw;
+  }
+  .who-we-are-left a {
+    display: block;
+    width: 26%;
+    align-self: baseline;
+    color: white;
+    text-decoration: none;
+    background-color: rgba(155,100,155,0.9);
+    padding: 0.7em;
+    margin-top: 2vw;
+    border-radius: 0.5em;
+    font-size: 4vw;
+  }
+  .who-we-are-left a:hover {
+    opacity: 0.6;
+  }
+  .who-we-are-imgs {
+    position: relative;
+    display: none !important;
+    height: inherit;
+  }
+  .who-we-are-imgs img{
+    width: 25%;
+    position: absolute;
+    box-shadow: 0.5em 0.5em 1em rgba(90,90,90,0.5);
+  }
+  #img1 {
+    top: 0;
+    right: 16vw;
+  }
+  #img1:hover {
+    width: 30%;
+    top: 2vw;
+    right: 12vw;
+    transition: 1s;
+  }
+  #img2{
+    top: 11vw;
+    right: 8vw;
+  }
+  #img2:hover {
+    width: 35%;
+    top: 8vw;
+    right: 6vw;
+    transition: 1s;
+    z-index: 10;
+  }
+  #img3 {
+    top: 18vw;
+    right: 2vw;
+    z-index: 2;
+  }
+  #img3:hover {
+    width: 35%;
+    top: 14vw;
+    right: 4vw;
+    transition: 1s;
+    z-index: 10;
+  }
+  /* akhir style bagian 1 */
+
+
+
+  /* style bagian 2 */
+
+  /* akhir style bagian 2 */
+
+
+
+  /* style bagian 3 */
+  /* HTML5 display-role reset for older browsers */
+  article, aside, details, figcaption, figure,
+  footer, header, hgroup, menu, nav, section {
+  	display: block;
+  }
+  body {
+  	line-height: 1;
+  }
+  ol, ul {
+  	list-style: none;
+  }
+  blockquote, q {
+  	quotes: none;
+  }
+  blockquote:before, blockquote:after,
+  q:before, q:after {
+  	content: '';
+  	content: none;
+  }
+  table {
+  	border-collapse: collapse;
+  	border-spacing: 0;
+  }
+
+  a{
+  	text-decoration: none;
+  }
+
+  /*---------------------Clearfix-------------------------*/
+
+
+/*  .cf:before,
+  .cf:after {
+      content: " ";*/ /* 1 */
+      /*display: table; *//* 2 */
+/*  }
+*/
+/*  .cf:after {
+      clear: both;
+  }*/
+
+  /**
+   * For IE 6/7 only
+   * Include this rule to trigger hasLayout and contain floats.
+   */
+/*  .cf {
+      *zoom: 1;
+  }*/
+
+
+  /*--------------------------style----------------------------*/
+
+  /*===================style top=========================*/
+
+  .bagian3 {
+    height: 600px;
+    background-color: #efe;
+    display: block;
+    z-index: 1;
+  }
+
+  .top-wrap{
+  	background-color:#8A00FF;
+  	color:#fff;
+  	text-align: center;
+    margin-top: 99vw;
+  }
+
+  .container{
+    height: 15vw;
+  	padding: 0px auto;
+  	margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .top {
+  	padding: 20px 0;
+  	display: inline-block;
+  	margin: 4.5vw;
+    font-size: 1.8vw;
+  }
+
+  .top p {
+    line-height: 4vw;
+  }
+
+  .top-h2 {
+    font-size: 4vw;
+    font-weight: bold;
+  }
+
+  .complete-project, .client, .photo-edit{
+
+  }
+
+  /*============================style testi=====================*/
+
+  .testi{
+  	padding-top: 4vw;
+
+  }
+
+  .testi-wrap{
+  	width: 55%;
+  	float: left;
+  }
+
+  .heading{
+  	text-align: center;
+  	margin-bottom: 10vw;
+  }
+
+  .heading h1{
+  	font-size: 6vw;
+  }
+
+  .wrap-box{
+  	background-color: white;
+  	box-shadow: 0 0 6px rgba(0,0,0,.3);
+  	border-radius: 5px;
+    width: 80%;
+    margin-left: 5vw;
+  }
+
+  .container-box{
+  	padding: 9vw 7vw;
+  }
+
+  .project-img{
+  	float: left;
+  	border-radius: 50%;
+  }
+
+  .text-box{
+  	text-align: center;
+  	margin-top: 10vw;
+  }
+
+  .name-people{
+  	padding: 1vw;
+  }
+
+  .satisfaction{
+  	text-align: center;
+  	margin-top: 5vw;
+  }
+
+  .rating{
+  	font-size: 10vw;
+  	padding: 10vw 0;
+  }
+
+  .fas{
+  	color: #FCED00;
+  }
+
+  .btn-sm a{
+  	background-color: rgba(138, 0, 255, 0.7);
+  	padding: 10px 15px;
+  	color: white;
+  	border-radius: 7px;
+  	transition: 0.5s;
+  }
+
+  .btn-sm a:hover{
+  	background-color: rgba(138, 0, 255, 1);
+  }
+
+  /* Ini Bagian Latest nya*/
+  .latest-project-container {
+    margin-top: 6vw;
+    display: ;
+  }
+  .latest-project-text {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .latest-project-text ul {
+    margin-top: 3vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .latest-project-text li {
+    flex-direction: row;
+    padding: 1vw;
+    border-bottom: 2px solid white;
+    margin-bottom: 3vh;
+  }
+  .latest-project-text li:hover {
+    border-bottom: 2px solid rgb(200,50,200);
+    transition: 0.5s;
+  }
+  .latest-project-img {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 5vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1vw;
+    justify-content: center;
+    align-content: : center;
+  }
+  .latest-project-img .latest {
+    align-self: center;
+    width: 100%;
+    height: auto;
+  }
+  .latest-project-img img:hover{
+    z-index: 10;
+    width: 15em;
+    height: auto;
+    box-shadow: 0 0 5px rgb(100,100,100);
+    transition: 2s;
+  }
+  /* akhir style bagian 3 */
+
+
+
+  /* style bagian 4 */
+
+  /* akhir style bagian 4 */
+}
