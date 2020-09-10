@@ -1,3 +1,10 @@
+const menuToggle = document.querySelector('.menu-toggle input')
+const nav = document.querySelector('nav ul')
+
+menuToggle.addEventListener('click', function () {
+   nav.classList.toggle('slide')
+})
+
 //Ini script jQuery untuk ganti-ganti gambar di utama
 $(document).ready(function trial(){
   let image_array = ["assets/image/img9.jpg","assets/image/img10.jpg","assets/image/img11.jpg"];
