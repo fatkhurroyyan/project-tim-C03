@@ -155,7 +155,7 @@
   background-color: rgba(155,100,155,0.9);
   padding: 0.7em;
   border-radius: 0.5em;
-  opacity: 0.5
+  opacity: 0.8
 }
 .who-we-are-text a:hover {
   opacity: 1;
@@ -164,6 +164,7 @@
   position: relative;
   display: block !important;
   height: inherit;
+  z-index: -1;
 }
 .who-we-are-imgs img{
   width: 25%;
