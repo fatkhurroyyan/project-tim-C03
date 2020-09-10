@@ -1,57 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Fotoin</title>
    <link rel="stylesheet" href="assets/style/style.css">
    <link rel="stylesheet" href="assets/style/responsive.css">
-   <!-- ini tambahan untuk animasi sedikit... menggunakan jQuery -->
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
-   <script rel="preload" type="text/javascript" src="assets/animation/script.js"></script>
 </head>
-
 <body>
-   <!-- sintaks bagian 1 -->
-  <div class="welcome">
-    <div class="welcome-container">
-      <div class="head">
-        <div class="head-container">
-          <h2><a href="#">Fotoin</a></h2>
-          <ul>
-            <li class="list-rmv"><a href="#">Home</a></li>
-            <li class="list-rmv"><a href="#">About</a></li>
-            <li class="list-rmv"><a href="#">Feature</a></li>
-            <li class="list-rmv"><a href="form.html">Contact</a></li>
-            <li class="list-rmv"><a href="#">Pricing</a></li>
-            <div id="icon"class="fa fa-bars"></div>
-            <div id="icon-x" class="fa fa-times"></div>
-          </ul>
-        </div>
+<!--   navbar-->
+  <nav>
+      <div class="logo">
+         <h1>Fotoin</h1>
       </div>
-      <div class="welcome-main">
-        <div class="welcome-main-container" id="myImage">
-          <blockquote>“In <b>Photography</b> There Is A Reality So Subtle That It Becomes More Real Than Reality.”
-            <br>
-            <br>
-            <span id="author-name"><em>- Alfred Stieglitz</em></span></blockquote>
-        </div>
+      <ul>
+         <li><a href="#">Home</a></li>
+         <li><a href="#about">About</a></li>
+         <li><a href="#fitur">Feature</a></li>
+         <li><a href="form.html" target="blank">Contact</a></li>
+         <li><a href="#">Pricing</a></li>
+      </ul>
+      <div class="menu-toggle">
+         <input type="checkbox" />
+         <span></span>
+         <span></span>
+         <span></span>
+      </div>
+   </nav>
+<!--   akhir navbar-->
+
+<!--   jumbotron-->
+<div class="welcome">
+  <div class="welcome-container">
+    <div class="welcome-main">
+      <div class="welcome-main-container" id="myImage">
+        <blockquote>“In <b>Photography</b> There Is A Reality So Subtle That It Becomes More Real Than Reality.”
+          <br>
+          <br>
+          <span id="author-name"><em>- Alfred Stieglitz</em></span></blockquote>
       </div>
     </div>
   </div>
-  <div class="who-we-are">
-    <div class="who-we-are-container">
-      <div class="who-we-are-left">
-        <div class="who-we-are-text">
-          <h2>Who we are</h2>
-          <p><strong>Fotoin</strong> is a Startups that Works in Photography ad Cinematic Videography.
-           The startups was built in 2019. Up untill now, we have received many awards and our Works
-          are acknowledge by the expert community. Our clients are varies and have shown a lots of gratitude towards our services. </p>
-          <br>
-          <a href="#">Learn More</a>
-        </div>
+</div>
+<!--   akhir jumbotron-->
+
+<!--   about-->
+   <div class="about" id="about">
+      <div class="about-text">
+         <h2>Who we are</h2>
+         <p><strong>Fotoin</strong> is a Startups that Works in Photography ad Cinematic Videography.
+            The startups was built in 2019. Up untill now, we have received many awards and our Works
+            are acknowledge by the expert community. Our clients are varies and have shown a lots of gratitude towards
+            our services. </p>
+         <a href="#">Learn More</a>
 
       </div>
       <div class="who-we-are-imgs">
@@ -60,122 +63,211 @@
         <img id ="img3" src="assets/image/imgFoto2.jpg" alt="">
       </div>
     </div>
+<!--   akhir about-->
+
+<!--   Feature-->
+   <div class="feature" id="fitur">
+     <div class="sub-fitur">
+        <div class="icon-fitur1"></div>
+       <h3>Easy</h3>
+       <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur, ipsam!</p>
+     </div>
+     <div class="sub-fitur">
+        <div class="icon-fitur2"></div>
+       <h3>Fast</h3>
+       <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur, ipsam!</p>
+     </div>
+     <div class="sub-fitur">
+        <div class="icon-fitur3"></div>
+       <h3>Profesional</h3>
+       <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur, ipsam!</p>
+     </div>
+     <div class="sub-fitur">
+        <div class="icon-fitur4"></div>
+       <h3>Security</h3>
+       <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur, ipsam!</p>
+     </div>
+</div>
+<!--   akhir feature-->
+
+
+<!--   bagian our skill-->
+   <div class="skill">
+     <img src="assets/image/img9.jpg">
+     <div class="our-skill">
+         <h2>Our Skill</h2>
+         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro voluptates ex quaerat nesciunt delectus, nobis exercitationem eaque aliquam! Error, impedit!</p>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, neque repudiandae? Facere velit fuga, ad magnam blanditiis quam enim eveniet, facilis accusantium expedita dolore, error eligendi corporis. Quasi, harum quod.</p>
+
+      </div>
+     <div class="persen-skill">
+       <div class="full-persen skill-persen1">
+
+       </div>
+       <p>Videografy</p>
+
+       <div class="full-persen skill-persen2">
+
+       </div>
+       <p>Photography</p>
+
+       <div class="full-persen skill-persen3">
+
+       </div>
+       <p>Editing</p>
+
+       <div class="full-persen skill-persen4">
+
+       </div>
+       <p>Desain</p>
+     </div>
+   </div>
+<!--   akhir our skill-->
+
+
+
+<!--   our team-->
+
+<div class="our-team">
+   <h2>Our Team</h2>
+
+  <div class="item-team">
+    <img src="assets/image/profile1.png">
+    <h4>Albert Flashdisk</h4>
+    <p>Web developer</p>
   </div>
-   <!-- akhir sintaks bagian 1 -->
 
+  <div class="item-team">
+    <img src="assets/image/profile2.png">
+    <h4>Genita Keyboard</h4>
+    <p>Desainer grafis</p>
+  </div>
 
-   <!-- sintaks bagian 2 -->
+  <div class="item-team">
+    <img src="assets/image/profile1.png">
+    <h4>George Harddisk</h4>
+    <p>Photografer</p>
+  </div>
 
-   <!-- akhir sintaks bagian 2 -->
-
-
-
-   <!-- sintaks bagian 3 -->
-   <div class="bagian3">
-    <div class="top-wrap">
-   		<div class="container">
-   			<div class="complete-project top">
-   				<p class="top-h2">1,640</p>
-   				<p>Completed projects</p>
-   			</div>
-   			<div class="client top">
-   				<p class="top-h2">200</p>
-   				<p>Client this year</p>
-   			</div>
-   			<div class="photo-edit top">
-   				<p class="top-h2">750</p>
-   				<p>Projects editing</p>
-   			</div>
-   			<div class="design top">
-   				<p class="top-h2">890</p>
-   				<p>Projects design</p>
-   			</div>
-   		</div>
-   	</div>
-   	<div class="testi">
-   		<div class="container-cf">
-   			<div class="testi-wrap">
-   				<div class="heading">
-   					<h1>TESTIMONIALS</h1>
-   				</div>
-   				<div class="wrap-box">
-   					<div class="container-box cf">
-   						<img src="assets/image/project.jpg" class="project-img">
-   						<p class="text-box">"Wow,this service provider is very extraordinary. I guarantee you will satisfied if buying their services!"</p>
-   						<p class="name-people">~Steven Shiro~</p>
-   					</div>
-   				</div>
-   			</div>
-   			<div class="satisfaction">
-   				<div class="h3-style">
-   					<h3>Client Satisfaction</h3>
-   				</div>
-   				<div class="rating">
-   					<h1>4.8 <i class="fas fa-star"></i></h1>
-   				</div>
-   				<div class="btn-sm">
-   					<a href="#">Show More</a>
-   				</div>
-   			</div>
-   		</div>
-   	</div>
+  <div class="item-team">
+    <img src="assets/image/profile2.png">
+    <h4>Alvina Touchpad</h4>
+    <p>Editor</p>
+  </div>
+</div>
+<!--   akhir our team-->
+<div class="bagian3">
+ <div class="top-wrap">
+   <div class="container">
+     <div class="complete-project top">
+       <p class="top-h2">1,640</p>
+       <p>Completed projects</p>
+     </div>
+     <div class="client top">
+       <p class="top-h2">200</p>
+       <p>Client this year</p>
+     </div>
+     <div class="photo-edit top">
+       <p class="top-h2">750</p>
+       <p>Projects editing</p>
+     </div>
+     <div class="design top">
+       <p class="top-h2">890</p>
+       <p>Projects design</p>
+     </div>
    </div>
-   <div class="latest-projet">
-     <div class="latest-project-container">
-       <div class="latest-project-text">
-         <h2>LATEST PROJECT</h2>
-         <ul>
-           <li id="list1" class="list">Show all</li>
-           <li id="list2" class="list">Aesthetic</li>
-           <li id="list3" class="list">Occation</li>
-           <li id="list4" class="list">Nature</li>
-         </ul>
+ </div>
+ <div class="testi">
+   <div class="container-cf">
+     <div class="testi-wrap">
+       <div class="heading">
+         <h1>TESTIMONIALS</h1>
        </div>
-       <div class="latest-project-img">
-         <img id="latest1" class ="latest" src="assets/image/Latest1.jpg" alt="">
-         <img id="latest2" class ="latest" src="assets/image/Latest2.jpg" alt="">
-         <img id="latest3" class ="latest" src="assets/image/Latest3.jpg" alt="">
-         <img id="latest4" class ="latest" src="assets/image/Latest4.jpg" alt="">
-         <img id="latest5" class ="latest" src="assets/image/Latest5.jpg" alt="">
-         <img id="latest6" class ="latest" src="assets/image/Latest6.jpg" alt="">
-         <img id="latest7" class ="latest" src="assets/image/Latest7.jpg" alt="">
-         <img id="latest8" class ="latest" src="assets/image/Latest8.jpg" alt="">
+       <div class="wrap-box">
+         <div class="container-box cf">
+           <img src="assets/image/project.jpg" class="project-img">
+           <p class="text-box">"Wow,this service provider is very extraordinary. I guarantee you will satisfied if buying their services!"</p>
+           <p class="name-people">~Steven Shiro~</p>
+         </div>
+       </div>
+     </div>
+     <div class="satisfaction">
+       <div class="h3-style">
+         <h3>Client Satisfaction</h3>
+       </div>
+       <div class="rating">
+         <h1>4.8 <i class="fas fa-star"></i></h1>
+       </div>
+       <div class="btn-sm">
+         <a href="#">Show More</a>
        </div>
      </div>
    </div>
+ </div>
+</div>
+<div class="latest-projet">
+  <div class="latest-project-container">
+    <div class="latest-project-text">
+      <h2>LATEST PROJECT</h2>
+      <ul>
+        <li id="list1" class="list">Show all</li>
+        <li id="list2" class="list">Aesthetic</li>
+        <li id="list3" class="list">Occation</li>
+        <li id="list4" class="list">Nature</li>
+      </ul>
+    </div>
+    <div class="latest-project-img">
+      <img id="latest1" class ="latest" src="assets/image/Latest1.jpg" alt="">
+      <img id="latest2" class ="latest" src="assets/image/Latest2.jpg" alt="">
+      <img id="latest3" class ="latest" src="assets/image/Latest3.jpg" alt="">
+      <img id="latest4" class ="latest" src="assets/image/Latest4.jpg" alt="">
+      <img id="latest5" class ="latest" src="assets/image/Latest5.jpg" alt="">
+      <img id="latest6" class ="latest" src="assets/image/Latest6.jpg" alt="">
+      <img id="latest7" class ="latest" src="assets/image/Latest7.jpg" alt="">
+      <img id="latest8" class ="latest" src="assets/image/Latest8.jpg" alt="">
+    </div>
+  </div>
+</div>
 
-   <!-- akhir sintaks bagian 3 -->
+<!-- akhir sintaks bagian 3 -->
 
 
 
-   <!-- sintaks bagian 4 -->
-   <footer>
-     <div class="footer-container">
-       <div class="left-col">
-         <h1 >Social</h1>
-         <div class="social-media">
-           <a href="#"><i class="fab fa-facebook-f"></i></a>
-           <a href="#"><i class="fab fa-twitter"></i></a>
-           <a href="#"><i class="fab fa-instagram"></i></a>
-           <a href="#"><i class="fab fa-youtube"></i></a>
-         </div>
-         <p class="rights-text">© Created By Fotoin.</p>
-       </div>
+<!-- sintaks bagian 4 -->
+<footer>
+  <div class="footer-container">
+    <div class="left-col">
+      <h1 >Social</h1>
+      <div class="social-media">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+      </div>
+      <p class="rights-text">© Created By Fotoin.</p>
+    </div>
 
-       <div class="right-col">
-         <h1 >Pay With</h1>
-         <div class="payment-method">
-           <a href="#"><i class="fab fa-cc-paypal"></i></a>
-           <a href="#"><i class="fab fa-cc-visa"></i></a>
-           <a href="#"><i class="fab fa-bitcoin"></i></a>
-           <a href="#"><i class="fab fa-ethereum"></i></a>
-         </div>
-         <p class="rights-text">More Coming Soon</p>
-       </div>
-     </div>
-   </footer>
-   <!-- akhir sintaks bagian 4 -->
-   
+    <div class="right-col">
+      <h1 >Pay With</h1>
+      <div class="payment-method">
+        <a href="#"><i class="fab fa-cc-paypal"></i></a>
+        <a href="#"><i class="fab fa-cc-visa"></i></a>
+        <a href="#"><i class="fab fa-bitcoin"></i></a>
+        <a href="#"><i class="fab fa-ethereum"></i></a>
+      </div>
+      <p class="rights-text">More Coming Soon</p>
+    </div>
+  </div>
+</footer>
+<!-- akhir sintaks bagian 4 -->
+<script type="text/javascript" src="assets/animation/script.js"></script>
+
+
+
+
+
+
+<!--script.js untuk animasi masuk navbar di ukuran mobile-->
+   <script src="assets/animation/script.js"></script>
 </body>
-
 </html>
