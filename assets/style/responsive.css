@@ -1,406 +1,395 @@
-@media(max-width: 700px){
-  /* style bagian 1 */
-  .welcome {
-    font-family: "Asap";
-    src: url('../fonts/Asap-Regular.ttf') format('truetype');
-  }
-  .welcome a {
-      text-decoration: none;
-      color: inherit;
-  }
-  .who-we-are {
-    font-family: "Asap";
-    src: url('../fonts/Asap-Regular.ttf') format('truetype');
-    z-index: 1;
-  }
-  .head {
-    background-color: white;
-    width: 97%;
-    margin: 0 auto;
-  }
-  .head-container {
-    display: block;
-    height: 60px;
-  }
-  .head-container h2 {
-    float: left;
-    font-family: "Exo";
-    src: url('../fonts/Exo-SemiBold.ttf') format('truetype');
-    line-height: 60px;
+/*Ukuran Tablet*/
+@media screen and (max-width: 1000px) {
+/*   style navbar*/
+   nav ul {
+   display: flex;
+   list-style: none;
+   width: 60%;
+   justify-content: space-between;
+   align-items: center;
+   }
 
-  }
-  .head-container ul {
-    float: right;
-  }
-  .head-container li {
-    float: left;
-    margin-right: 1vw;
-    padding: 0 1vw;
-    list-style: none;
-    display: none;
-    line-height: 60px;
-  }
-  .head-container li:hover {
-    opacity: 0.7;
-    box-shadow: 0 -3px 5px #d3d3d3;
-  }
-#icon-x {
-    display: none;
-  }
-  .fa {
-    font-size: 10vw;
-    padding: 4vw 4vw 0 0;
-    float:right;
-  }
-  .welcome-container {
-    width: 100%;
-  }
-  .welcome-main {
-    width: inherit;
-    height: 600px;
-    background-image: url("../image/img10.jpg");
-    background-size: 1440px 600px;
-    background-repeat: no-repeat;
-    display: flex;
-    align-items: center;
-  }
-  .welcome-main-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 1vw;
-    font-size: 10vw;
-    color: white;
-    width: 100%;
-    height: 600px;
-    margin: auto;
-    padding: 0 3vw;
-    background-color: rgba(20,20,20,0.5);
-  }
-  #author-name {
-    letter-spacing: 0.2em;
-    font-size: 5vw;
-  }
-  .who-we-are-container {
-    width: 97%;
+
+
+
+   /*style about*/
+   .about {
+     width: 95%;
+     margin: 25px auto;
+      justify-content: space-around;
+     display: flex;
+      flex-wrap: wrap;
+      height: 900px;
+      z-index: -10;
+      padding: 20px;
+      box-sizing: border-box;
+   }
+
+
+
+   /*style div.about-text*/
+   .about-text {
+      width: 100%;
+      background-color: whitesmoke;
+      padding: 10px;
+      height: 300px;
+      box-sizing: border-box;
+       font-family: asap;
+      border-radius: 5px;
+      margin-bottom: 25px;
+   }
+
+   .about-text h2{
+     padding-bottom: 20px;
+      margin-bottom: 20px;
+     border-bottom: 2px solid rgb(200,200,200);
+   }
+
+   .about-text p {
+     text-align: justify;
+     line-height: 30px;
+   }
+
+   .about-text a {
+     display: block;
+     width: 50%;
+     text-align: center;
+     color: white;
+     text-decoration: none;
+     background-color: rgba(155,100,155,0.9);
+     padding: 10px;
+     border-radius: 5px;
+     opacity: 0.5;
+   }
+   .about-text a:active {
+     opacity: 1;
+   }
+
+   /*style div.about-imgs*/
+   .about-imgs {
+     width: 75%;
+     margin: -300px 0;
+   }
+
+   img.mobile {
+      display: none;
+      width: 100%;
+      box-shadow: none;
+   }
+
+   .desktop {
+      display: none;
+   }
+
+
+   /*style bagian feature*/
+   .feature {
+      display: flex;
+      width: 95%;
+      margin-top: 50px;
+      background-color: whitesmoke;
+      flex-wrap: wrap;
+      justify-content: space-around;
+   }
+
+
+   /*style bagian our skill*/
+   .skill img {
+      width: 100%;
+      height: 550px;
+      object-fit: cover;
+   }
+
+   .skill::after {
+       content: '';
+       display: block;
+       width: 100%;
+       height: 550px;
+       background-image: linear-gradient(to top, rgba(230,230,230,1), rgba(200,200,200,0.4));
+       position: absolute;
+       top: 0;
+      }
+
+   .our-skill {
+      position: absolute;
+      top: 50px;
+      left: 50px;
+      background-color: white;
+      z-index: 1;
+      width: 30%;
+      height: 70%;
+      border-radius: 5px;
+      padding: 25px;
+      box-sizing: border-box;
+   }
+
+   .our-skill h2 {
+      margin: 10px 0;
+      padding-bottom: 10px;
+      border-bottom: 2px solid rgb(200,200,200);
+   }
+
+   .our-skill p {
+      line-height: 20px;
+      margin-bottom: 10px;
+   }
+
+
+   .our-skill {
+      position: absolute;
+      top: 50px;
+      left: 50px;
+      background-color: white;
+      z-index: 1;
+      width: 85%;
+      height: 45%;
+      border-radius: 5px;
+      padding: 25px;
+      box-sizing: border-box;
+   }
+
+   .our-skill h2 {
+      margin: 15px 0;
+      padding-bottom: 10px;
+      border-bottom: 2px solid rgb(200,200,200);
+   }
+
+   .our-skill p {
+      line-height: 20px;
+      margin-bottom: 10px;
+      font-size: 15px;
+   }
+
+
+   .persen-skill {
+      position: absolute;
+      top: 300px;
+      right: 50px;
+      width: 85%;
+      height: 20%;
+      z-index: 1;
+   }
+
+   .persen-skill p {
+      text-align: center;
+      color: ghostwhite;
+      text-shadow: 2px 2px grey;
+      font-size: 15px;
+   }
+
+   .full-persen {
+   height: 5px;
+   background-color: gainsboro;
+   border-radius: 5px;
+   width: 90%;
+   margin: 20px auto;
+   margin-bottom: 10px;
+   box-shadow: 1px 1px grey;
+   }
+
+
+}
+
+
+
+
+
+
+
+
+
+/* ukuran mobile */
+
+@media screen and (max-width: 650px) {
+/*   style navbar*/
+   nav ul {
+
+      position: absolute;
+      top: 0;
+      margin-top: 50px;
+      height: 500px;
+      width: 100%;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center;
+      background-color: whitesmoke;
+      margin-top: 75px;
+      opacity: 0;
+      transition: 1s;
+      transform: translate(-500px, 0px);
+   }
+
+   nav ul.slide {
+      opacity: 1;
+      transform: translate(0, 0px);
+
+   }
+
+   .menu-toggle {
+      display: flex;
+   }
+
+
+/*   style div.jumbotron*/
+   div.jumbotron img {
+   width: 100%;
+   object-fit: cover;
+   height: 350px;
+   }
+
+
+   /*style about*/
+   .about {
+     width: 95%;
+     margin: 25px auto;
+      justify-content: space-around;
+     display: flex;
+      flex-wrap: wrap;
+      height: 725px;
+      z-index: -10;
+      padding: 20px;
+      box-sizing: border-box;
+   }
+
+
+   /*style div.about-text*/
+   .about-text {
+      width: 100%;
+      background-color: whitesmoke;
+      padding: 10px;
+      height: 350px;
+      box-sizing: border-box;
+       font-family: asap;
+      border-radius: 5px;
+      margin-bottom: 25px;
+   }
+
+   .about-text h2{
+     padding-bottom: 20px;
+      margin-bottom: 20px;
+     border-bottom: 2px solid rgb(200,200,200);
+   }
+   .about-text p {
+     text-align: justify;
+     line-height: 30px;
+
+   }
+   .about-text a {
+     display: block;
+     width: 50%;
+     text-align: center;
+     color: white;
+     text-decoration: none;
+     background-color: rgba(155,100,155,0.9);
+     padding: 10px;
+     border-radius: 5px;
+     opacity: 0.5;
+   }
+   .about-text a:active {
+     opacity: 1;
+   }
+
+   /*style div.about-imgs*/
+   .about-imgs {
+     width: 100%;
+      position: relative;
+      margin-top: -150px;
+      height: 500px;
+
+   }
+
+   img.mobile {
+      display: none;
+      width: 100%;
+      box-shadow: none;
+   }
+
+   .desktop {
+      display: none;
+   }
+
+
+   /*style bagian feature*/
+   .feature {
+      font-size: 15px;
+   }
+
+   .sub-fitur {
+   width: 60%;
+   margin: 0px;
+   text-align: center;
+   padding: 15px;
+   }
+
+
+   .icon-fitur1::after, .icon-fitur2::after, .icon-fitur3::after, .icon-fitur4::after {
+      font-size: 50px;
+   }
+
+
+/*   style bagian our skill*/
+   .our-skill {
+      position: absolute;
+      top: 25px;
+      left: 32px;
+      background-color: white;
+      z-index: 1;
+      width: 85%;
+      height: 55%;
+      border-radius: 5px;
+      padding: 25px;
+      box-sizing: border-box;
+   }
+
+   .persen-skill {
+      position: absolute;
+      top: 350px;
+      right: 32px;
+      width: 85%;
+      height: 20%;
+      z-index: 1;
+   }
+
+   .skill img {
+   width: 100%;
+   height: 600px;
+   object-fit: cover;
+   }
+
+   .skill::after {
+    content: '';
     display: block;
-    height: 43vw;
-  }
-  .who-we-are-left {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 80%;
-    margin: auto;
-    background-color: rgba(200,200,200,0.4);
-    margin-bottom: 1vw;
-    padding: 2em;
-    height: 120vw;
-  }
-  .who-we-are-text h2{
-    padding-bottom: 3vw;
-    border-bottom: 2px solid rgb(200,200,200);
-  }
-  .who-we-are-text p {
-    word-wrap: break-word;
-    text-align: justify;
-    padding-top: 1vw;
-    line-height: 10vw;
-  }
-  .who-we-are-left a {
-    display: block;
-    width: 26%;
-    align-self: baseline;
-    color: white;
-    text-decoration: none;
-    background-color: rgba(155,100,155,0.9);
-    padding: 0.7em;
-    margin-top: 2vw;
-    border-radius: 0.5em;
-    font-size: 4vw;
-  }
-  .who-we-are-left a:hover {
-    opacity: 0.6;
-  }
-  .who-we-are-imgs {
-    position: relative;
-    display: none !important;
-    height: inherit;
-  }
-  .who-we-are-imgs img{
-    width: 25%;
+    width: 100%;
+    height: 600px;
+    background-image: linear-gradient(to top, rgba(230,230,230,1), rgba(200,200,200,0.4));
     position: absolute;
-    box-shadow: 0.5em 0.5em 1em rgba(90,90,90,0.5);
-  }
-  #img1 {
     top: 0;
-    right: 16vw;
-  }
-  #img1:hover {
-    width: 30%;
-    top: 2vw;
-    right: 12vw;
-    transition: 1s;
-  }
-  #img2{
-    top: 11vw;
-    right: 8vw;
-  }
-  #img2:hover {
-    width: 35%;
-    top: 8vw;
-    right: 6vw;
-    transition: 1s;
-    z-index: 10;
-  }
-  #img3 {
-    top: 18vw;
-    right: 2vw;
-    z-index: 2;
-  }
-  #img3:hover {
-    width: 35%;
-    top: 14vw;
-    right: 4vw;
-    transition: 1s;
-    z-index: 10;
-  }
-  /* akhir style bagian 1 */
+}
+
+   /*style our team*/
+
+.our-team {
+   width: 95%;
+   margin: 25px auto;
+   display: flex;
+   flex-wrap: wrap;
+   text-align: center;
+   justify-content: space-around
+}
+
+.our-team h2 {
+   width: 100%;
+   margin: 20px auto;
+}
+
+.item-team {
+   width: 100%;
+   height: 200px;
+}
+
+.item-team img {
+   width: 25%;
+}
 
 
-
-  /* style bagian 2 */
-
-  /* akhir style bagian 2 */
-
-
-
-  /* style bagian 3 */
-  /* HTML5 display-role reset for older browsers */
-  article, aside, details, figcaption, figure,
-  footer, header, hgroup, menu, nav, section {
-  	display: block;
-  }
-  body {
-  	line-height: 1;
-  }
-  ol, ul {
-  	list-style: none;
-  }
-  blockquote, q {
-  	quotes: none;
-  }
-  blockquote:before, blockquote:after,
-  q:before, q:after {
-  	content: '';
-  	content: none;
-  }
-  table {
-  	border-collapse: collapse;
-  	border-spacing: 0;
-  }
-
-  a{
-  	text-decoration: none;
-  }
-
-  /*---------------------Clearfix-------------------------*/
-
-
-/*  .cf:before,
-  .cf:after {
-      content: " ";*/ /* 1 */
-      /*display: table; *//* 2 */
-/*  }
-*/
-/*  .cf:after {
-      clear: both;
-  }*/
-
-  /**
-   * For IE 6/7 only
-   * Include this rule to trigger hasLayout and contain floats.
-   */
-/*  .cf {
-      *zoom: 1;
-  }*/
-
-
-  /*--------------------------style----------------------------*/
-
-  /*===================style top=========================*/
-
-  .bagian3 {
-    height: 600px;
-    background-color: #efe;
-    display: block;
-    z-index: 1;
-  }
-
-  .top-wrap{
-  	background-color:#8A00FF;
-  	color:#fff;
-  	text-align: center;
-    margin-top: 99vw;
-  }
-
-  .container{
-    height: 15vw;
-  	padding: 0px auto;
-  	margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .top {
-  	padding: 20px 0;
-  	display: inline-block;
-  	margin: 4.5vw;
-    font-size: 1.8vw;
-  }
-
-  .top p {
-    line-height: 4vw;
-  }
-
-  .top-h2 {
-    font-size: 4vw;
-    font-weight: bold;
-  }
-
-  .complete-project, .client, .photo-edit{
-
-  }
-
-  /*============================style testi=====================*/
-
-  .testi{
-  	padding-top: 4vw;
-
-  }
-
-  .testi-wrap{
-  	width: 55%;
-  	float: left;
-  }
-
-  .heading{
-  	text-align: center;
-  	margin-bottom: 10vw;
-  }
-
-  .heading h1{
-  	font-size: 6vw;
-  }
-
-  .wrap-box{
-  	background-color: white;
-  	box-shadow: 0 0 6px rgba(0,0,0,.3);
-  	border-radius: 5px;
-    width: 80%;
-    margin-left: 5vw;
-  }
-
-  .container-box{
-  	padding: 9vw 7vw;
-  }
-
-  .project-img{
-  	float: left;
-  	border-radius: 50%;
-  }
-
-  .text-box{
-  	text-align: center;
-  	margin-top: 10vw;
-  }
-
-  .name-people{
-  	padding: 1vw;
-  }
-
-  .satisfaction{
-  	text-align: center;
-  	margin-top: 5vw;
-  }
-
-  .rating{
-  	font-size: 10vw;
-  	padding: 10vw 0;
-  }
-
-  .fas{
-  	color: #FCED00;
-  }
-
-  .btn-sm a{
-  	background-color: rgba(138, 0, 255, 0.7);
-  	padding: 10px 15px;
-  	color: white;
-  	border-radius: 7px;
-  	transition: 0.5s;
-  }
-
-  .btn-sm a:hover{
-  	background-color: rgba(138, 0, 255, 1);
-  }
-
-  /* Ini Bagian Latest nya*/
-  .latest-project-container {
-    margin-top: 6vw;
-    display: ;
-  }
-  .latest-project-text {
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-  }
-  .latest-project-text ul {
-    margin-top: 3vw;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-  }
-  .latest-project-text li {
-    flex-direction: row;
-    padding: 1vw;
-    border-bottom: 2px solid white;
-    margin-bottom: 3vh;
-  }
-  .latest-project-text li:hover {
-    border-bottom: 2px solid rgb(200,50,200);
-    transition: 0.5s;
-  }
-  .latest-project-img {
-    width: 80%;
-    margin: auto;
-    margin-bottom: 5vw;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 1vw;
-    justify-content: center;
-    align-content: : center;
-  }
-  .latest-project-img .latest {
-    align-self: center;
-    width: 100%;
-    height: auto;
-  }
-  .latest-project-img img:hover{
-    z-index: 10;
-    width: 15em;
-    height: auto;
-    box-shadow: 0 0 5px rgb(100,100,100);
-    transition: 2s;
-  }
-  /* akhir style bagian 3 */
-
-
-
-  /* style bagian 4 */
-
-  /* akhir style bagian 4 */
 }
