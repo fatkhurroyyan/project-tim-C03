@@ -157,7 +157,7 @@
   border-radius: 0.5em;
   opacity: 0.5
 }
-.who-we-are-text a:active {
+.who-we-are-text a:hover {
   opacity: 1;
 }
 .who-we-are-imgs {
